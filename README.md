@@ -1,24 +1,26 @@
-# README
+# Braille Literacy Canada membership management system
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## System dependencies
 
-Things you may want to cover:
+Tested/developed with:
 
-* Ruby version
+- Ruby 2.7.3
+- Rails 6.1.4
+- Node.JS 16.4.0
 
-* System dependencies
+## Configuration
 
-* Configuration
+## Database creation
 
-* Database creation
+```
+rails db:migrate
+```
 
-* Database initialization
+## Database initialization
 
-* How to run the test suite
+For development purposes, a test "admin" user can be created with 
+`rails db:make_admin_user` (user: test@test.com, password: password1234)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+## Deployment instructions
